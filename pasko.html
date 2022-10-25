@@ -11,10 +11,7 @@
 </head>
 <center>
 <body>
-    <div class="Container">
-        <button id="btn_start" onclick="start()">Start</button>
-        <button id="btn_stop" onclick="stop()">Stop</button>
-    </div>
+    
 
         <div id="xmass">
         <h1 id="text">HELLO!</h1>
@@ -42,6 +39,13 @@
 
         <p id="rgbname"></p>
         </div>
+    
+    <div class="Container">
+        <button id="btn_start" onclick="start()">Start</button>
+        <button id="btn_stop" onclick="stop()">Stop</button>
+        <button id="btn_play" type="button" onclick="playAudio()">Play</button>
+        <button id="btn_pause" type="button" onclick="pauseAudio()">Pause</button>
+    </div>
             
         <audio src="jingle.mp3" autoplay></audio>
 </body>
