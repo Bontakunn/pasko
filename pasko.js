@@ -130,4 +130,13 @@ function interval16() {
 
   function stop(){
     clearInterval(start_color);
-  }
+  };
+
+ var x = document.getElementById("jingle");
+
+function playAudio() {
+  x.play();
+}
+function pauseAudio() {
+    x.pause();
+  };
